@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OBD.NET</name>
+    </assembly>
+    <members>
+        <member name="T:OBD.NET.Communication.DataReceivedEventArgs">
+            <summary>
+            Event args for receiving serial data
+            </summary>
+        </member>
+        <member name="P:OBD.NET.Communication.DataReceivedEventArgs.Count">
+            <summary>
+            Count of valid data bytes in the buffer
+            </summary>
+        </member>
+        <member name="P:OBD.NET.Communication.DataReceivedEventArgs.Data">
+            <summary>
+            Data buffer holding the bytes
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Communication.DataReceivedEventArgs.#ctor(System.Int32,System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:OBD.NET.Communication.DataReceivedEventArgs"/> class.
+            </summary>
+            <param name="count">The count.</param>
+            <param name="data">The data.</param>
+        </member>
+        <member name="T:OBD.NET.Communication.ISerialConnection">
+            <summary>
+            Serial connection interface
+            </summary>
+            <seealso cref="T:System.IDisposable" />
+        </member>
+        <member name="P:OBD.NET.Communication.ISerialConnection.IsOpen">
+            <summary>
+            Gets a value indicating whether this instance is open.
+            </summary>
+            <value>
+              <c>true</c> if this instance is open; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:OBD.NET.Communication.ISerialConnection.IsAsync">
+            <summary>
+            Gets a value indicating whether this instance uses asynchronous IO
+            </summary>
+            <remarks>
+            Has to be set to true if asynchronous IO is supported.
+            If true async methods have to be implemented
+            </remarks>
+        </member>
+        <member name="E:OBD.NET.Communication.ISerialConnection.DataReceived">
+            <summary>
+            Occurs when a full line was received
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Communication.ISerialConnection.Connect">
+            <summary>
+            Connects the serial port.
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Communication.ISerialConnection.ConnectAsync">
+            <summary>
+            Connects the serial port asynchronous
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OBD.NET.Communication.ISerialConnection.Write(System.Byte[])">
+            <summary>
+            Writes the specified data to the serial connection
+            </summary>
+            <param name="data">The data.</param>
+        </member>
+        <member name="M:OBD.NET.Communication.ISerialConnection.WriteAsync(System.Byte[])">
+            <summary>
+            Writes the specified data to the serial connection asynchronous
+            </summary>
+            <param name="data">The data.</param>
+        </member>
+        <member name="T:OBD.NET.Devices.QueuedCommand">
+            <summary>
+            Class used for queued command
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Devices.ELM327.SendCommand(OBD.NET.Commands.ATCommand)">
+            <summary>
+            Sends the AT command.
+            </summary>
+            <param name="command">The command.</param>
+        </member>
+        <member name="M:OBD.NET.Devices.ELM327.RequestData``1">
+            <summary>
+            Requests the data and calls the handler
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:OBD.NET.Devices.ELM327.RequestData(System.Byte)">
+            <summary>
+            Request data based on a pid
+            </summary>
+            <param name="pid">The pid of the requested data</param>
+        </member>
+        <member name="M:OBD.NET.Devices.ELM327.RequestDataAsync``1">
+            <summary>
+            Requests the data asynchronous and return the data when available
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:OBD.NET.Devices.ELM327.RequestDataAsync(System.Type)">
+            <summary>
+            Requests the data asynchronous and return the data when available
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OBD.NET.Devices.ELM327.RequestDataAsync(System.Byte)">
+            <summary>
+            Request data based on a pid
+            </summary>
+            <param name="pid">The pid of the requested data</param>
+        </member>
+        <member name="M:OBD.NET.Devices.ELM327.InitializePidCache">
+             <summary>
+             YOU SHOULDN'T NEED THIS METHOD!
+            
+             You should only use this method if you're requesting data by pid instead of the <see cref="M:OBD.NET.Devices.ELM327.RequestData``1"/>-method.
+            
+             Initializes the PID-Cache with all IOBDData-Types contained in OBD.NET.
+             You can add additional ones with <see cref="M:OBD.NET.Devices.ELM327.AddToPidCache``1"/>.
+             </summary>
+        </member>
+        <member name="T:OBD.NET.Devices.SerialDevice">
+            <summary>
+            Base class used for communicating with the device
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.#ctor(OBD.NET.Communication.ISerialConnection,System.Char,OBD.NET.Logging.IOBDLogger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OBD.NET.Devices.SerialDevice"/> class.
+            </summary>
+            <param name="connection">connection.</param>
+            <param name="terminator">terminator used for terminating the command message</param>
+            <param name="logger">logger instance</param>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.Initialize">
+            <summary>
+            Initializes the device
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.InitializeAsync">
+            <summary>
+            Initializes the device
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.CheckConnectionAndStartWorker">
+            <summary>
+            Checks the connection and starts background worker which is sending the commands
+            </summary>
+            <exception cref="T:OBD.NET.Exceptions.SerialException">Failed to open Serial-Connection.</exception>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.SendCommand(System.String)">
+            <summary>
+            Sends the command.
+            </summary>
+            <param name="command">command string</param>
+            <exception cref="T:System.InvalidOperationException">Not connected</exception>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.PrepareCommand(System.String)">
+            <summary>
+            Prepares the command
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.OnDataReceived(System.Object,OBD.NET.Communication.DataReceivedEventArgs)">
+            <summary>
+            Called when data is received from the serial device
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:OBD.NET.Communication.DataReceivedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.FinishLine">
+            <summary>
+            Signals a final message
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.InternalProcessMessage(System.String)">
+            <summary>
+            Process message and sets the result
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.ProcessMessage(System.String)">
+            <summary>
+            Processes the message.
+            </summary>
+            <param name="message">message received</param>
+            <returns>result data</returns>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.CommandWorker">
+            <summary>
+            Worker method for sending commands
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Devices.SerialDevice.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Devices.STN1170.SendCommand(OBD.NET.Commands.STCommand)">
+            <summary>
+            Sends the ST command.
+            </summary>
+            <param name="command">The command.</param>
+        </member>
+        <member name="T:OBD.NET.Enums.Mode">
+            <summary>
+            https://en.wikipedia.org/wiki/OBD-II_PIDs#Modes
+            </summary>
+        </member>
+        <member name="T:OBD.NET.Logging.OBDConsoleLogger">
+            <summary>
+            Simple console logger
+            </summary>
+            <seealso cref="T:OBD.NET.Logging.IOBDLogger" />
+        </member>
+        <member name="T:OBD.NET.Logging.OBDDebugLogger">
+            <summary>
+            Simple debug logger
+            </summary>
+            <seealso cref="T:OBD.NET.Logging.IOBDLogger" />
+        </member>
+        <member name="T:OBD.NET.OBDData.CommandedSecondaryAirStatus.CommandedSecondaryAirStatusValue">
+            <summary>
+            https://en.wikipedia.org/wiki/OBD-II_PIDs#Mode_1_PID_12
+            </summary>
+        </member>
+        <member name="T:OBD.NET.OBDData.FuelSystemStatus.FuelSystemStatusValue">
+            <summary>
+            https://en.wikipedia.org/wiki/OBD-II_PIDs#Mode_1_PID_03
+            </summary>
+        </member>
+        <member name="T:OBD.NET.Util.AsyncManualResetEvent">
+            <summary>
+            Notifies one or more waiting awaiters that an event has occurred
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Util.AsyncManualResetEvent.WaitAsync">
+            <summary>
+            Waits the async.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OBD.NET.Util.AsyncManualResetEvent.Set">
+            <summary>
+            Sets the state of the event to signaled, allowing one or more waiting awaiters to proceed.
+            </summary>
+        </member>
+        <member name="M:OBD.NET.Util.AsyncManualResetEvent.Reset">
+            <summary>
+            Sets the state of the event to nonsignaled, causing awaiters to block.
+            </summary>
+        </member>
+    </members>
+</doc>
