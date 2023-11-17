@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Idle
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -99,6 +99,24 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: {x: 0, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.0166667
+        value: {x: -1.409, y: 0.053, z: 0.104}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -299,6 +317,24 @@ AnimationClip:
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 1.0166667
+        value: {x: -0.0001, y: 0.1871, z: 0.0034}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 2
+        value: {x: -0.0000666976, y: 0.1869943, z: -0.0003137589}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -401,7 +437,8 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
   m_ScaleCurves: []
   m_FloatCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -438,7 +475,9 @@ AnimationClip:
     path: 
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -475,6 +514,7 @@ AnimationClip:
     path: 
     classID: 137
     script: {fileID: 0}
+    flags: 16
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -484,12 +524,32 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
+      path: 2412745995
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 2412745995
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 4
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
       path: 0
       attribute: 1781828230
       script: {fileID: 0}
       typeID: 137
       customType: 20
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 0
       attribute: 2458870707
@@ -497,6 +557,8 @@ AnimationClip:
       typeID: 137
       customType: 20
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1300429832
       attribute: 1
@@ -504,6 +566,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 742160243
       attribute: 1
@@ -511,6 +575,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2536053614
       attribute: 1
@@ -518,6 +584,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3168761953
       attribute: 1
@@ -525,6 +593,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1119322092
       attribute: 1
@@ -532,13 +602,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2412745995
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3543271155
       attribute: 1
@@ -546,6 +611,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1451296577
       attribute: 1
@@ -553,6 +620,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4084209969
       attribute: 1
@@ -560,6 +629,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2251064333
       attribute: 1
@@ -567,6 +638,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 99003717
       attribute: 1
@@ -574,6 +647,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4084793864
       attribute: 1
@@ -581,6 +656,8 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1300429832
       attribute: 4
@@ -588,6 +665,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 742160243
       attribute: 4
@@ -595,6 +674,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2536053614
       attribute: 4
@@ -602,6 +683,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3168761953
       attribute: 4
@@ -609,6 +692,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1119322092
       attribute: 4
@@ -616,13 +701,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2412745995
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 3543271155
       attribute: 4
@@ -630,6 +710,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 1451296577
       attribute: 4
@@ -637,6 +719,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 2251064333
       attribute: 4
@@ -644,6 +728,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 99003717
       attribute: 4
@@ -651,6 +737,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4084209969
       attribute: 4
@@ -658,6 +746,8 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     - serializedVersion: 2
       path: 4084793864
       attribute: 4
@@ -665,18 +755,20 @@ AnimationClip:
       typeID: 4
       customType: 4
       isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.0166667
+    m_StopTime: 2
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -687,7 +779,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -706,7 +799,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -725,7 +820,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -744,7 +841,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -763,7 +862,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -782,7 +883,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -801,7 +904,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -820,7 +925,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -839,7 +946,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -858,7 +967,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -877,7 +988,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -896,7 +1009,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -915,7 +1030,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -934,7 +1051,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -953,7 +1072,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -972,7 +1093,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -991,7 +1114,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1010,7 +1135,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1029,7 +1156,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1048,7 +1177,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1067,7 +1198,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1086,7 +1219,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1105,7 +1240,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1124,7 +1261,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1143,7 +1282,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1162,7 +1303,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1181,7 +1324,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1200,7 +1345,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1219,7 +1366,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1238,7 +1387,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1257,7 +1408,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1294,7 +1447,9 @@ AnimationClip:
     path: 
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1331,12 +1486,32 @@ AnimationClip:
     path: 
     classID: 137
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: -0.0000667572
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0166667
+        value: -0.0001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2
+        value: -0.0000666976
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1350,12 +1525,32 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: 0.18700004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0166667
+        value: 0.1871
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2
+        value: 0.1869943
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1369,12 +1564,32 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
         value: 0.0018014908
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0166667
+        value: 0.0034
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2
+        value: -0.0003137589
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1388,11 +1603,31 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0166667
+        value: -1.409
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1407,11 +1642,31 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0166667
+        value: 0.053
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1426,11 +1681,31 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0166667
+        value: 0.104
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1445,7 +1720,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1464,7 +1741,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1483,7 +1762,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1502,7 +1783,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1521,7 +1804,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1540,7 +1825,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1559,7 +1846,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1578,7 +1867,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1597,7 +1888,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1616,7 +1909,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1635,7 +1930,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1654,7 +1951,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1673,7 +1972,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1692,7 +1993,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1711,7 +2014,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1730,7 +2035,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1749,7 +2056,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1768,7 +2077,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1787,7 +2098,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1806,7 +2119,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1825,7 +2140,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1844,7 +2161,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1863,7 +2182,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1882,7 +2203,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1901,7 +2224,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1920,7 +2245,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1939,7 +2266,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1958,7 +2287,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1977,7 +2308,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -1996,7 +2329,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2015,7 +2350,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2034,7 +2371,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2053,7 +2392,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2072,7 +2413,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2091,7 +2434,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2110,7 +2455,9 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -2129,358 +2476,10 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
-    classID: 4
-    script: {fileID: 0}
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve: []
       m_PreInfinity: 2
@@ -2490,6 +2489,427 @@ AnimationClip:
     path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
     classID: 4
     script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_151_joint_ruya173
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_138_joint_ruya160
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm/_41_joint_LeftElbow/_48_joint_LeftWrist
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_78_joint_Bone_Bronya_C9_Earrings_L_01/_79__joint_Bone_Bronya_C9_Earrings_L_End
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_143_joint_ruya165
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_16_joint_RightShoulder/_18_joint_RightArm/_156_joint_ruya56
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_147_joint_ruya169
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_13_joint_Neck/_14_joint_Head/_133_joint_ruya155
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2/_34_joint_LeftShoulder/_36_joint_LeftArm
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: _389__Root/_12_joint_HipMaster/_10_joint_Torso/_11_joint_Torso2
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []

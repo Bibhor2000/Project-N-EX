@@ -1,79 +1,58 @@
 using UnityEngine;
-using Random = UnityEngine.Random;
 using TMPro;
-using InTheHand.Net.Bluetooth;
 using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.Diagnostics;
 using System.Net.Sockets;
+using System.Threading.Tasks;
+using Random = UnityEngine.Random;
 
-namespace InTheHand.Net.Sockets {
-    public class BoostCalc : MonoBehaviour
-    {
-        float randomNumber ;
+namespace Bluetooth_Device_Scanner {
+    public class BoostCalc : MonoBehaviour {
+        float currentSpeed = 0f;
+        float boostPressure = 0f;
         public TextMeshProUGUI text;
-        void Start()
-        {
-            InvokeRepeating("Calculate", 1.25f, 1.25f);
+        private Vector3 lastPosition;
+        private float lastTime;
+
+        void Start() {
+            InvokeRepeating("CalculateBoost", 1.25f, 1.25f);
+            Input.location.Start(); // Start the location service
+            lastTime = Time.time; // Initialize last time
         }
-    // Update is called once per frame
-        void Calculate()
-        {
-            randomNumber = Random.Range(0, 22); 
+
+        void Update() {
+            currentSpeed = GetSpeedFromDevice();
+        }
+
+        void CalculateBoost() {
+            if (currentSpeed > 0 && currentSpeed <= 100) {
+                boostPressure = currentSpeed / 5.0f;
+            } else {
+                boostPressure = 0;
+            }
             text = GetComponent<TextMeshProUGUI> ();
-            text.text = randomNumber.ToString();  
-        }
-        partial class BluetoothClient
-        {
-            private void PlatformInitialize()
-            {
-            }
-
-            IReadOnlyCollection<BluetoothDeviceInfo> PlatformDiscoverDevices(int maxDevices)
-            {
-                List<BluetoothDeviceInfo> devices = new List<BluetoothDeviceInfo>();
-                return devices.AsReadOnly();
-            }
-
-            void PlatformConnect(BluetoothAddress address, Guid service)
-            {
-            }
-
-            void PlatformClose()
-            {  
-            }
-
-            bool GetAuthenticate()
-            {
-                return false;
-            }
-
-            void SetAuthenticate(bool value)
-            {
-
-            }
-
-            Socket GetClient()
-            {
-                return null;
-            }
-
-            bool GetConnected()
-            {
-                return false;
-            }
-
-            bool GetEncrypt()
-            {
-                return false;
-            }
-
-            void SetEncrypt(bool value)
-            {  
-            }
-
+            text.text = boostPressure.ToString();
         }
 
-    }  
+        float GetSpeedFromDevice() {
+            if (Input.location.status == LocationServiceStatus.Running) {
+                if (lastPosition != Vector3.zero && Input.location.lastData.latitude != 0) {
+                    float distance = Vector3.Distance(lastPosition, new Vector3((float)Input.location.lastData.latitude, (float)Input.location.lastData.longitude));
+                    float timeDifference = Time.time - lastTime;
 
+                    float speed = distance / timeDifference;
+                    float speedMph = speed * 2.23694f;
+
+                    lastPosition = new Vector3((float)Input.location.lastData.latitude, (float)Input.location.lastData.longitude);
+                    lastTime = Time.time;
+
+                    return speedMph; // Return the calculated speed
+                }
+            } else {
+                Input.location.Start(); // Start the location service if it's not already running
+            }
+            return 0f; // Return a default speed if calculations are not performed
+        }
+    }
 }

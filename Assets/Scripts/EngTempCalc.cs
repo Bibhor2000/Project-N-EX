@@ -1,15 +1,13 @@
 using UnityEngine;
 using Random = UnityEngine.Random;
-using UnityEngine.UI;
 using TMPro;
-using InTheHand.Net.Bluetooth;
 using System;
-using System.Linq;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Sockets;
+using System.Threading.Tasks;
 
-namespace InTheHand.Net.Sockets {
+namespace Bluetooth_Device_Scanner {
     public class EngTempCalc : MonoBehaviour
     {
         float randomNumber ;
@@ -22,7 +20,7 @@ namespace InTheHand.Net.Sockets {
         // Update is called once per frame
         void Calculate()
         {
-            randomNumber = Random.Range(0, 250); 
+            randomNumber = Random.Range(195, 250); 
             text = GetComponent<TextMeshProUGUI> ();
             text.text = randomNumber.ToString();  
         }
